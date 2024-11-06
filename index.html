@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Honcharuk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="text title">
+            Online Casino Reviews
+        </div>
+        <div class="text_wrapper">
+            <div class="text subtitle">
+                All Casinos
+            </div>
+            <div class="text counter_text">
+                1,138 Casinos
+            </div>
+        </div>
+
+        <div id="container"></div>
+        <button id="showMoreButton">Load More Casinos (+5)</button>
+
+        <div id="modal" class="modal">
+            <div class="modal_content">
+                <button id="modalClose" class="modal_close">✕</button>
+                <div id="modalTitle" class="text"></div>
+                <div id="copyMessage">
+                    <div class="copyMessageImage"></div>
+                    <div>Code copied to clipboard.</div>
+                </div>
+                <div id="modalCode"></div>
+                <div class="modalTextBlock">
+                        <div class="one">Games allowed:</div>
+                        <div class="two">Max cash out:</div>
+                        <div class="three">Min. deposit:</div>
+
+                        <div id="modalGamesAllowedValue" class="four valueText"></div>
+                        <div id="modalMaxCashOutValue" class="five valueText"></div>
+                        <div id="modalMinDepositValue" class="six"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
